@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #360033, #0b8793);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.container, .footer-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.checkbox-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+.password-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 20px;
+    word-break: break-word;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-container p {
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.footer-container button {
+    background: #ffcc00;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.footer-container button:hover {
+    background: #e6b800;
+    transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+    .container, .footer-container {
+        max-width: 90%;
+    }
+    button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .password-box {
+        font-size: 18px;
+    }
+}

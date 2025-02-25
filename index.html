@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Passwort Generator - Generiere sichere Passwörter mit Sonderzeichen.">
+    <meta name="keywords" content="Passwort Generator, Sicherheits Passwort, Generator">
+    <meta name="author" content="Khemmathat Ainkhlai">
+    <title>Passwort Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>🔒 Passwort Generator</h2>
+        </header>
+        
+        <section class="password-options">
+            <label class="checkbox-label">
+                <input type="checkbox" id="specialChars"> Sonderzeichen einschließen
+            </label>
+        </section>
+        
+        <section class="password-generator">
+            <button onclick="generatePassword()">🎲 Passwort generieren</button>
+        </section>
+        
+        <section class="password-output">
+            <p>Generiertes Passwort:</p>
+            <div class="password-box">
+                <span id="passwordOutput">🔑 Dein Passwort erscheint hier</span>
+            </div>
+        </section>
+    </div>
+    <footer class="footer-container">
+        <p>Dieses Projekt wurde von <strong>Khemmathat Ainkhlai</strong> erstellt.</p>
+        <p>Ich habe es entwickelt, um meine Fähigkeiten in der Webentwicklung zu verbessern und neue Techniken zu lernen.</p>
+        <p>Das Projekt steht unter der <strong>MIT-Lizenz</strong>, was bedeutet, dass du den Code frei verwenden, modifizieren und weiterverbreiten kannst.</p>
+        <p>Feedback und Beiträge sind willkommen!</p>
+        <button onclick="window.location.href='https://github.com/KhemmathatDev'">Check My GitHub</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
